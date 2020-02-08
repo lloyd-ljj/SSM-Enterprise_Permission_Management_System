@@ -21,20 +21,21 @@
 ## 目录结构
 
 ..\ENTERPRISE_PERMISSION_MANAGEMENT_SYSTEM
-├─managementsys_dao									// DAO<br/>│  │  pom.xml
-│  │  table_create.sql										// 项目中使用的表
+├─managementsys_dao									// DAO
+│  │  pom.xml
+│  │  table_create.sql								// 项目中使用的表
 │  └─src
 │      ├─main
 │      │  ├─java
 │      │  │  └─shu
 │      │  │      └─dao
 │      │  │              IMemberDao.java		 // 用户表操作
-│      │  │              IOrdersDao.java		   // 订单表操作
-│      │  │              IPermissionDao.java	// 权限表操作
+│      │  │              IOrdersDao.java		 // 订单表操作
+│      │  │              IPermissionDao.java	 // 权限表操作
 │      │  │              IProductDao.java		 // 产品表操作
-│      │  │              IRoleDao.java			  // 角色表操作
+│      │  │              IRoleDao.java			 // 角色表操作
 │      │  │              ISysLogDao.java		 // 日志表操作
-│      │  │              ITravellerDao.java	   // 旅客表操作
+│      │  │              ITravellerDao.java	     // 旅客表操作
 │      │  │              IUserDao.java		     // 用户表操作
 │      │  └─resources
 │      └─test
@@ -47,13 +48,13 @@
 │      │  │  └─shu
 │      │  │      └─domain
 │      │  │              Member.java			// 会员
-│      │  │              Orders.java			  // 订单				
-│      │  │              Permission.java	   // 权限
+│      │  │              Orders.java			// 订单				
+│      │  │              Permission.java	    // 权限
 │      │  │              Product.java			// 产品
-│      │  │              Role.java				 // 角色
-│      │  │              SysLog.java			 // 日志
-│      │  │              Traveller.java		   // 旅客
-│      │  │              UserInfo.java		   // 用户
+│      │  │              Role.java				// 角色
+│      │  │              SysLog.java			// 日志
+│      │  │              Traveller.java		    // 旅客
+│      │  │              UserInfo.java		    // 用户
 │      │  └─resources
 │      └─test
 │          └─java
@@ -108,11 +109,11 @@
 │          │              SysLogController.java
 │          │              UserController.java
 │          ├─resources
-│          │      applicationContext.xml	// Spring配置文件
+│          │      applicationContext.xml	    // Spring配置文件
 │          │      db.properties					// 数据库相关文件
 │          │      log4j.properties
 │          │      spring-mvc.xml				// SpringMVC配置文件
-│          │      spring-security.xml		   // Spring-Security配置文件
+│          │      spring-security.xml		    // Spring-Security配置文件
 │          └─webapp
 │              │  403.jsp
 │              │  failer.jsp
@@ -120,7 +121,7 @@
 │              │  login.jsp
 │              ├─css				
 │              ├─img
-│              ├─pages			// 页面
+│              ├─pages			        // 页面
 │              │      aside.jsp
 │              │      header.jsp
 │              │      main.jsp
