@@ -20,15 +20,15 @@
 
 ## 目录结构
 
-..\ENTERPRISE_PERMISSION_MANAGEMENT_SYSTEM
-├─managementsys_dao									// DAO
-│  │  pom.xml
-│  │  table_create.sql								// 项目中使用的表
-│  └─src
-│      ├─main
-│      │  ├─java
-│      │  │  └─shu
-│      │  │      └─dao
+..\ENTERPRISE_PERMISSION_MANAGEMENT_SYSTEM<br>
+├─managementsys_dao									// DAO<br>
+│  │  pom.xml<br>
+│  │  table_create.sql								// 项目中使用的表<br>
+│  └─src<br>
+│      ├─main<br>
+│      │  ├─java<br>
+│      │  │  └─shu<br>
+│      │  │      └─dao<br>
 │      │  │              IMemberDao.java		 // 用户表操作
 │      │  │              IOrdersDao.java		 // 订单表操作
 │      │  │              IPermissionDao.java	 // 权限表操作
